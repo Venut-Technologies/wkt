@@ -49,6 +49,10 @@ macOS and Linux. Windows is out of scope (symlinks plus deletion semantics).
 go install github.com/Venut-Labs/wkt/cmd/wkt@latest
 ```
 
+> **Moving.** From v0.7.0 the module path is `github.com/Venut-Technologies/wkt`;
+> install with `go install github.com/Venut-Technologies/wkt/cmd/wkt@latest`.
+> The `github.com/Venut-Labs/wkt` path stays at v0.6.x.
+
 Or build from a clone — standard library only, no third-party dependencies:
 
 ```sh
@@ -203,7 +207,7 @@ overwriting your configuration or refusing to build the task.
 
 ## License
 
-Apache License 2.0 — see [LICENSE](LICENSE). Copyright 2026 Venut Labs.
+Apache License 2.0 — see [LICENSE](LICENSE). Copyright 2026 Venut Technologies.
 
 Apache-2.0 over MIT for one reason that matters to a tool people run at work:
 it grants patent rights explicitly and terminates them for anyone who sues over

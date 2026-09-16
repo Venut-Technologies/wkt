@@ -1,6 +1,13 @@
 # Changelog
 
-## Unreleased
+## v0.6.3 — 2026-09-16
+
+The last release under `github.com/Venut-Labs/wkt`. The GitHub organisation
+was renamed to Venut Technologies, and from v0.7.0 the module path is
+`github.com/Venut-Technologies/wkt`; this release marks the old path
+deprecated in `go.mod` so `go list -m -u` and pkg.go.dev say so.
+
+- Copyright and branding now name Venut Technologies.
 
 - **`wkt hook session-start` no longer fails open in silence** (issue #6). The
   hook exists to close H16 — a sibling tree created since `WorktreeCreate`
