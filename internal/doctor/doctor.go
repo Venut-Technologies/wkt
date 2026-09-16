@@ -14,11 +14,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Venut-Labs/wkt/internal/container"
-	"github.com/Venut-Labs/wkt/internal/gitx"
-	"github.com/Venut-Labs/wkt/internal/state"
-	"github.com/Venut-Labs/wkt/internal/store"
-	"github.com/Venut-Labs/wkt/internal/wkterr"
+	"github.com/Venut-Technologies/wkt/internal/container"
+	"github.com/Venut-Technologies/wkt/internal/gitx"
+	"github.com/Venut-Technologies/wkt/internal/state"
+	"github.com/Venut-Technologies/wkt/internal/store"
+	"github.com/Venut-Technologies/wkt/internal/wkterr"
 )
 
 // Finding is one thing doctor noticed. Info entries are reported and never

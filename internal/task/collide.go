@@ -3,8 +3,8 @@ package task
 import (
 	"strings"
 
-	"github.com/Venut-Labs/wkt/internal/gitx"
-	"github.com/Venut-Labs/wkt/internal/wkterr"
+	"github.com/Venut-Technologies/wkt/internal/gitx"
+	"github.com/Venut-Technologies/wkt/internal/wkterr"
 )
 
 // Branch names live in a namespace shaped like a filesystem, and git only says

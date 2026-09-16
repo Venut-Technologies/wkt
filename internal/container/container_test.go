@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Venut-Labs/wkt/internal/paths"
-	"github.com/Venut-Labs/wkt/internal/wkterr"
+	"github.com/Venut-Technologies/wkt/internal/paths"
+	"github.com/Venut-Technologies/wkt/internal/wkterr"
 )
 
 func TestLocateIsSiblingAndNeverInsideWorkspace(t *testing.T) {

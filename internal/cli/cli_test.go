@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Venut-Labs/wkt/internal/wkterr"
+	"github.com/Venut-Technologies/wkt/internal/wkterr"
 )
 
 func seedRepo(t *testing.T, dir string) {

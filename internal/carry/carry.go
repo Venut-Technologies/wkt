@@ -26,9 +26,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Venut-Labs/wkt/internal/gitx"
-	"github.com/Venut-Labs/wkt/internal/state"
-	"github.com/Venut-Labs/wkt/internal/wkterr"
+	"github.com/Venut-Technologies/wkt/internal/gitx"
+	"github.com/Venut-Technologies/wkt/internal/state"
+	"github.com/Venut-Technologies/wkt/internal/wkterr"
 )
 
 // IncludeFile is the opt-in, at the workspace root.

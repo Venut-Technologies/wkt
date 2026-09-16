@@ -28,7 +28,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/Venut-Labs/wkt/internal/wkterr"
+	"github.com/Venut-Technologies/wkt/internal/wkterr"
 )
 
 // Create is the WorktreeCreate payload, reduced to the fields wkt uses.

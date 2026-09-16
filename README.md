@@ -1,7 +1,7 @@
 # wkt
 
-[![CI](https://github.com/Venut-Labs/wkt/actions/workflows/ci.yml/badge.svg)](https://github.com/Venut-Labs/wkt/actions/workflows/ci.yml)
-[![Go Reference](https://pkg.go.dev/badge/github.com/Venut-Labs/wkt.svg)](https://pkg.go.dev/github.com/Venut-Labs/wkt)
+[![CI](https://github.com/Venut-Technologies/wkt/actions/workflows/ci.yml/badge.svg)](https://github.com/Venut-Technologies/wkt/actions/workflows/ci.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/Venut-Technologies/wkt.svg)](https://pkg.go.dev/github.com/Venut-Technologies/wkt)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 
 One task, one branch, many repositories.
@@ -46,12 +46,13 @@ macOS and Linux. Windows is out of scope (symlinks plus deletion semantics).
 ## Install
 
 ```sh
-go install github.com/Venut-Labs/wkt/cmd/wkt@latest
+go install github.com/Venut-Technologies/wkt/cmd/wkt@latest
 ```
 
-> **Moving.** From v0.7.0 the module path is `github.com/Venut-Technologies/wkt`;
-> install with `go install github.com/Venut-Technologies/wkt/cmd/wkt@latest`.
-> The `github.com/Venut-Labs/wkt` path stays at v0.6.x.
+> **Installed from `github.com/Venut-Labs/wkt` before v0.7.0?** That path is
+> frozen at v0.6.3 and gets no further releases. Install again with
+> the command above; the binary keeps its name, so hooks already written into
+> `~/.claude/settings.json` keep working if it lands in the same `GOBIN`.
 
 Or build from a clone — standard library only, no third-party dependencies:
 

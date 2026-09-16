@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Venut-Labs/wkt/internal/gitx"
-	"github.com/Venut-Labs/wkt/internal/paths"
-	"github.com/Venut-Labs/wkt/internal/wkterr"
+	"github.com/Venut-Technologies/wkt/internal/gitx"
+	"github.com/Venut-Technologies/wkt/internal/paths"
+	"github.com/Venut-Technologies/wkt/internal/wkterr"
 )
 
 // ID is a collision-free function of the workspace-relative path — never the

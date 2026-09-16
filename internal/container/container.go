@@ -9,8 +9,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Venut-Labs/wkt/internal/paths"
-	"github.com/Venut-Labs/wkt/internal/wkterr"
+	"github.com/Venut-Technologies/wkt/internal/paths"
+	"github.com/Venut-Technologies/wkt/internal/wkterr"
 )
 
 type C struct {

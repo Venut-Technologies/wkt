@@ -6,11 +6,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Venut-Labs/wkt/internal/container"
-	"github.com/Venut-Labs/wkt/internal/discover"
-	"github.com/Venut-Labs/wkt/internal/gitx"
-	"github.com/Venut-Labs/wkt/internal/perimeter"
-	"github.com/Venut-Labs/wkt/internal/state"
+	"github.com/Venut-Technologies/wkt/internal/container"
+	"github.com/Venut-Technologies/wkt/internal/discover"
+	"github.com/Venut-Technologies/wkt/internal/gitx"
+	"github.com/Venut-Technologies/wkt/internal/perimeter"
+	"github.com/Venut-Technologies/wkt/internal/state"
 )
 
 // TestRepairFixesGitdirBackPointersAfterAMove — spec §6. Moving a workspace

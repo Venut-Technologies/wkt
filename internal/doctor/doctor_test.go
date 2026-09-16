@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Venut-Labs/wkt/internal/container"
-	"github.com/Venut-Labs/wkt/internal/discover"
-	"github.com/Venut-Labs/wkt/internal/task"
+	"github.com/Venut-Technologies/wkt/internal/container"
+	"github.com/Venut-Technologies/wkt/internal/discover"
+	"github.com/Venut-Technologies/wkt/internal/task"
 )
 
 func g(t *testing.T, dir string, args ...string) string {

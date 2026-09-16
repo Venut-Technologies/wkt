@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Venut-Labs/wkt/internal/wkterr"
+	"github.com/Venut-Technologies/wkt/internal/wkterr"
 )
 
 const SchemaVersion = 1

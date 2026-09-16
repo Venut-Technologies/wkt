@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Venut-Labs/wkt/internal/state"
+	"github.com/Venut-Technologies/wkt/internal/state"
 )
 
 func TestBackFillLinksAreGoneDuringAndBackAfter(t *testing.T) {

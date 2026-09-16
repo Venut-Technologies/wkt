@@ -6,13 +6,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Venut-Labs/wkt/internal/container"
-	"github.com/Venut-Labs/wkt/internal/discover"
-	"github.com/Venut-Labs/wkt/internal/gitx"
-	"github.com/Venut-Labs/wkt/internal/perimeter"
-	"github.com/Venut-Labs/wkt/internal/state"
-	"github.com/Venut-Labs/wkt/internal/store"
-	"github.com/Venut-Labs/wkt/internal/wkterr"
+	"github.com/Venut-Technologies/wkt/internal/container"
+	"github.com/Venut-Technologies/wkt/internal/discover"
+	"github.com/Venut-Technologies/wkt/internal/gitx"
+	"github.com/Venut-Technologies/wkt/internal/perimeter"
+	"github.com/Venut-Technologies/wkt/internal/state"
+	"github.com/Venut-Technologies/wkt/internal/store"
+	"github.com/Venut-Technologies/wkt/internal/wkterr"
 )
 
 // Add grafts one more repository onto an existing task.

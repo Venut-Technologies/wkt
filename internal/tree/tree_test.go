@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/Venut-Labs/wkt/internal/discover"
-	"github.com/Venut-Labs/wkt/internal/state"
-	"github.com/Venut-Labs/wkt/internal/wkterr"
+	"github.com/Venut-Technologies/wkt/internal/discover"
+	"github.com/Venut-Technologies/wkt/internal/state"
+	"github.com/Venut-Technologies/wkt/internal/wkterr"
 )
 
 func TestBackFilledRepoKeepsCrossRepoRelativePathResolving(t *testing.T) {

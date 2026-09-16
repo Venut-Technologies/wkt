@@ -29,7 +29,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Venut-Labs/wkt/internal/wkterr"
+	"github.com/Venut-Technologies/wkt/internal/wkterr"
 )
 
 // ScriptRel is the seam, relative to the workspace root.

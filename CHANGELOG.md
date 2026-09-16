@@ -1,5 +1,24 @@
 # Changelog
 
+## v0.7.0 — 2026-09-16
+
+**The module path is now `github.com/Venut-Technologies/wkt`.** The GitHub
+organisation was renamed from Venut Labs to Venut Technologies, and a Go
+module's path has to match where it is fetched from: every earlier tag
+declares `github.com/Venut-Labs/wkt`, so installing any of them from the new
+path fails with "module declares its path as github.com/Venut-Labs/wkt".
+
+- **Migrating:** `go install github.com/Venut-Technologies/wkt/cmd/wkt@latest`.
+  The binary keeps its name, so hooks already written into
+  `~/.claude/settings.json` keep working when it lands in the same `GOBIN`.
+  Task state does not record the module path, so existing containers and
+  tasks are unaffected.
+- The old path is frozen at v0.6.3, which marks it deprecated — `go install`
+  says so when it fetches it. Versions v0.1.0 through v0.6.3 stay installable
+  there by explicit version from the Go module proxy.
+- Nothing imports wkt — everything but `cmd/wkt` is under `internal/` — so no
+  code outside this repository needs changing.
+
 ## v0.6.3 — 2026-09-16
 
 The last release under `github.com/Venut-Labs/wkt`. The GitHub organisation

@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Venut-Labs/wkt/internal/state"
-	"github.com/Venut-Labs/wkt/internal/wkterr"
+	"github.com/Venut-Technologies/wkt/internal/state"
+	"github.com/Venut-Technologies/wkt/internal/wkterr"
 )
 
 // TestFetchBringsTheTaskBranchIntoTheWorkspace — spec §6. The work happens in

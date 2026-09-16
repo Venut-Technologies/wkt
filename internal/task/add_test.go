@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Venut-Labs/wkt/internal/state"
-	"github.com/Venut-Labs/wkt/internal/wkterr"
+	"github.com/Venut-Technologies/wkt/internal/state"
+	"github.com/Venut-Technologies/wkt/internal/wkterr"
 )
 
 // TestAddGraftsAtTheTasksEpochNotTodaysHead is the whole reason this command

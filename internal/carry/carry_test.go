@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Venut-Labs/wkt/internal/state"
+	"github.com/Venut-Technologies/wkt/internal/state"
 )
 
 func g(t *testing.T, dir string, args ...string) {

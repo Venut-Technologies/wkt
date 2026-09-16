@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Venut-Labs/wkt/internal/paths"
+	"github.com/Venut-Technologies/wkt/internal/paths"
 )
 
 type Kind int

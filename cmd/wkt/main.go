@@ -4,7 +4,7 @@ import (
 	"os"
 	"runtime/debug"
 
-	"github.com/Venut-Labs/wkt/internal/cli"
+	"github.com/Venut-Technologies/wkt/internal/cli"
 )
 
 // version is stamped by the release build with

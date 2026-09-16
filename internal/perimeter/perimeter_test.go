@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Venut-Labs/wkt/internal/container"
-	"github.com/Venut-Labs/wkt/internal/state"
-	"github.com/Venut-Labs/wkt/internal/wkterr"
+	"github.com/Venut-Technologies/wkt/internal/container"
+	"github.com/Venut-Technologies/wkt/internal/state"
+	"github.com/Venut-Technologies/wkt/internal/wkterr"
 )
 
 // allowedDomains reads the egress allowlist out of a document. The Network
@@ -469,9 +469,9 @@ func TestSSHOriginsNamesWhatCannotBeReachedFromInsideATree(t *testing.T) {
 		url string
 		ssh bool
 	}{
-		{"git@github.com:Venut-Labs/wkt.git", true},
-		{"ssh://git@github.com/Venut-Labs/wkt.git", true},
-		{"https://github.com/Venut-Labs/wkt.git", false},
+		{"git@github.com:Venut-Technologies/wkt.git", true},
+		{"ssh://git@github.com/Venut-Technologies/wkt.git", true},
+		{"https://github.com/Venut-Technologies/wkt.git", false},
 		{"http://example.com/x.git", false},
 		{"/srv/mirrors/x.git", false},
 		{"file:///srv/mirrors/x.git", false},

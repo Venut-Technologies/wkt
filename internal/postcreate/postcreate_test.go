@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Venut-Labs/wkt/internal/wkterr"
+	"github.com/Venut-Technologies/wkt/internal/wkterr"
 )
 
 // script writes an executable post-create into a workspace.

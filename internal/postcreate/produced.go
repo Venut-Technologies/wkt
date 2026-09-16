@@ -7,8 +7,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Venut-Labs/wkt/internal/artifact"
-	"github.com/Venut-Labs/wkt/internal/gitx"
+	"github.com/Venut-Technologies/wkt/internal/artifact"
+	"github.com/Venut-Technologies/wkt/internal/gitx"
 )
 
 // Snapshot lists the ignored paths each materialised repository holds, in

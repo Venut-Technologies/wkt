@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Venut-Labs/wkt/internal/wkterr"
+	"github.com/Venut-Technologies/wkt/internal/wkterr"
 )
 
 // codeOf pulls wkt's own code out of an error, so a test asserts on the
